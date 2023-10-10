@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="./Script/script.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1 class="title">Conversor de temperatura</h1>
+    </section>
+
+    <section class="contenedor">
+        <div class="datos">
+            <label for="temperatura">Ingresa la temperatura en grados Celsius</label>
+            <input id="temp" type="text" name="temperatura" placeholder="Ingresa un valor numérico" />
+        </div>
+
+        <div class="conversor">
+            <button onclick="convertirTemperatura()">
+          Convertir a Fahrenheit y Kelvin
+        </button>
+        </div>
+        <div id="resultado"></div>
+    </section>
+</body>
+
+</html>
